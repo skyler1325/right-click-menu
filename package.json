@@ -1,0 +1,10 @@
+{
+  "name": "CustomRightClickMenu",
+  "version": "1.0.0",
+  "description": "An extension to modify the right-click menu in PenguinMod.",
+  "author": "cool8582",
+  "license": "MIT",
+  "penguinmod": {
+    "entry": "main.js"
+  }
+}
