@@ -1,0 +1,17 @@
+.custom-context-menu {
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 5px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+  z-index: 1000;
+}
+
+.menu-item {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  background: #f0f0f0;
+}
