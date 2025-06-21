@@ -1,0 +1,20 @@
+{
+  "name": "Context Menu Builder",
+  "id": "contextMenuBuilder",
+  "version": "1.0.0",
+  "description": "Let users add custom right-click options",
+  "blocks": [
+    {
+      "opcode": "addMenuItem",
+      "blockType": "command",
+      "text": "add menu item [LABEL] icon [ICON] do [CODE]",
+      "arguments": {
+        "LABEL": { "type": "string", "defaultValue": "Hello" },
+        "ICON": { "type": "string", "defaultValue": "👋" },
+        "CODE": { "type": "string", "defaultValue": "alert('hi')" }
+      }
+    }
+  ],
+  "menus": {},
+  "extensionURL": "https://your-hosted-site.com/menu-extension.js"
+}
